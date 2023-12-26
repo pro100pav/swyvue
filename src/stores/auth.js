@@ -2,7 +2,7 @@ import { ref } from 'vue'
 import { defineStore } from 'pinia'
 import axios from 'axios'
 
-const url = 'http://swyapi/api/'
+const url = 'http://localhost:3000/api/v1/users/'
 
 export const useAuthStore = defineStore('auth', () => {
     const userInfo = ref({
